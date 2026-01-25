@@ -9,31 +9,31 @@ body {
   min-height: 100svh;
 }
 
-.navigation,
-.heading,
-.table-heading,
-.instructions-heading {
+.navigation, .intro-heading, .table-heading, .instructions-heading {
   background-color: #1e90ff;
+}
+
+.navigation-links, .intro-heading, .table-heading, .instructions-heading, .top-link {
+  color: #ffffff;
 }
 
 .navigation-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   list-style: none;
+  gap: 0.5rem;
   width: 100%;
   padding: 1.2rem;
 }
 
 .navigation-links {
   background-color: #004d99;
-  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
-  padding: 5px 8px;
+  padding: 6px 8px;
   border-radius: 2px;
 }
 
@@ -51,8 +51,7 @@ body {
   margin-top: 1rem;
 }
 
-.heading {
-  color: #ffffff;
+.intro-heading {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -84,7 +83,7 @@ main {
 }
 
 main article {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .description {
@@ -96,11 +95,10 @@ table {
   width: min(100% - 30px, 450px);
   margin-inline: auto;
   border-collapse: collapse;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .table-heading {
-  color: #ffffff;
   font-size: 1.2rem;
   padding: 10px 5px;
 }
@@ -116,7 +114,6 @@ td {
 }
 
 .instructions-heading {
-  color: #ffffff;
   text-align: center;
   font-size: 1.4rem;
   padding: 0.8rem 0.5rem;
@@ -135,7 +132,6 @@ td {
 .top-link {
   display: inline-block;
   background-color: #002b56;
-  color: #ffffff;
   width: 100%;
   padding: 1rem 0.5rem;
   border-radius: 2px;
