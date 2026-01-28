@@ -103,6 +103,11 @@ table {
   padding: 10px 5px;
 }
 
+.sub-heading {
+  text-align: center;
+  font-weight: 600;
+}
+
 th,
 td {
   border: 1px solid #808080;
@@ -118,6 +123,10 @@ td {
   font-size: 1.4rem;
   padding: 0.8rem 0.5rem;
   text-transform: uppercase;
+}
+
+.instructions-section {
+  margin-top: 1rem;
 }
 
 .instructions-list {
