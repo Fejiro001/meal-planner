@@ -44,7 +44,8 @@ body {
 .container {
   width: min(100% - 30px, 600px);
   margin-inline: auto;
-  border: 1px solid #002b56;
+  border: 1.5px solid #004d99;
+  padding: 0.2rem 0.3rem;
 }
 
 #index-page {
@@ -55,6 +56,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.7rem;
+  font-weight: 700;
   padding: 0.2rem 0.5rem;
   margin-bottom: 1rem;
   letter-spacing: 0.5px;
@@ -78,24 +80,20 @@ figcaption a:hover {
   text-decoration: underline;
 }
 
-main {
-  margin: 0.4rem;
-}
-
 main article {
   margin: 1.5rem 0;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.2rem;
 }
 
 table {
-  width: min(100% - 30px, 450px);
+  width: min(100% - 30px, 400px);
   margin-inline: auto;
   border-collapse: collapse;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .table-heading {
@@ -108,14 +106,18 @@ table {
   font-weight: 600;
 }
 
-th,
-td {
-  border: 1px solid #808080;
-  padding: 6px;
+.table-body {
+  font-size: 0.9rem;
 }
 
 .table-body tr:nth-child(odd) {
   background-color: #99ccff;
+}
+
+th,
+td {
+  border: 1px solid #808080;
+  padding: 10px;
 }
 
 .instructions-heading {
@@ -126,6 +128,9 @@ td {
 }
 
 .instructions-section {
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 1rem;
   margin-top: 1rem;
 }
 
@@ -136,6 +141,7 @@ td {
 
 .instructions-list li {
   margin-bottom: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .top-link {
